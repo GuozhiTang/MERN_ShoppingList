@@ -11,6 +11,20 @@ import {
 } from 'reactstrap';
 
 const AppNavbar = (props) => {
+
+  /*
+  state = {
+    isOpen: false
+  }
+
+  toggle = () => {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
+  */
+
+  // ES6
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
